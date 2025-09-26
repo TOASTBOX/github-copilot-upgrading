@@ -1,11 +1,11 @@
-from setuptools import setup
+from setuptools import setup, find_packages
 
 tests_require = ['pytest']
 
 setup(
     name = "guachi",
     version = "0.0.6",
-    packages = ['guachi'],
+    packages = find_packages(),
     include_package_data=True,
     package_data = {
         '': ['distribute_setup.py'],
