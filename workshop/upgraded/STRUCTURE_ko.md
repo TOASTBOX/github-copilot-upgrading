@@ -4,14 +4,14 @@
 
 ## 주요 파일 및 폴더
 
-- `distribute_setup.py`: Python 패키지 배포를 위한 스크립트
-- `distribute-0.6.10.tar.gz`: 배포 관련 압축 파일
 - `MANIFEST.in`: 패키징 시 포함할 파일 목록
-- `README.rst`: 레거시 프로젝트 설명서
+- `README.rst`: 프로젝트 설명서
+- `distribute-0.6.10.tar.gz`: 배포 관련 압축 파일
+- `distribute_setup.py`: Python 패키지 배포 스크립트
 - `setup.py`: 프로젝트 설치 및 배포 스크립트
 - `docs/`: 프로젝트 문서 디렉터리
     - `Makefile`: 문서 빌드용 Makefile
-    - `source/`: Sphinx 기반 문서 소스
+    - `source/`: Sphinx 기반 문서 소스 및 설정
     - `build/`: 빌드된 문서 결과물
 - `guachi/`: 주요 Python 모듈 디렉터리
     - `__init__.py`: 패키지 초기화 파일
